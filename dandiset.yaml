@@ -6,29 +6,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 221910040
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
-    name: Homo sapiens - Human
-    schemaKey: SpeciesType
-  variableMeasured:
-  - Units
-  - ElectrodeGroup
 citation: Kyzar, Michael (2023) Test Upload (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000469/draft
 contributor:
