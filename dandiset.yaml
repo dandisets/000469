@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000469
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -20,16 +21,25 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-03-30T17:37:36.429935+00:00'
-description: 'Test upload for a dataset of recordings for a human working memory task. '
+description: 'Working Title: Dataset of human-single neuron activity during a Sternberg
+  working memory task.
+
+  Description: List abstract & Link to git code '
+ethicsApproval: []
 id: DANDI:000469/draft
 identifier: DANDI:000469
+keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000469/versions/draft/assets/
 name: Test Upload
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000469/draft
 version: draft
+wasGeneratedBy: []
