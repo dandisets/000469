@@ -35,22 +35,23 @@ citation: Kyzar, Michael (2023) Test Upload (Version draft) [Data set]. DANDI ar
 contributor:
 - affiliation: []
   email: kyzarnexus@gmail.com
+  identifier: 0009-0004-4392-9933
   includeInCitation: true
   name: Kyzar, Michael
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-03-30T17:37:36.429935+00:00'
-description: 'Working Title: Dataset of human-single neuron activity during a Sternberg
-  working memory task.
-
-  Description: List abstract & Link to git code '
+description: "Working Title: Dataset of human-single neuron activity during a Sternberg
+  working memory task.\nDescription: List abstract & Link to git code \n- Determine
+  which license to use. CC0-1.0 (Public Domain) or CC-BT-4.0 (Attribution)"
 ethicsApproval: []
 id: DANDI:000469/draft
 identifier: DANDI:000469
 keywords: []
 license:
 - spdx:CC0-1.0
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000469/versions/draft/assets/
 name: Test Upload
