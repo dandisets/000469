@@ -51,14 +51,12 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2023-03-30T17:37:36.429935+00:00'
-description: "Description: List abstract & Link to git code \n- Determine which license
-  to use. CC0-1.0 (Public Domain) or CC-BT-4.0 (Attribution)"
+description: "Description: List abstract & Link to git code \n"
 ethicsApproval: []
 id: DANDI:000469/draft
 identifier: DANDI:000469
 keywords: []
 license:
-- spdx:CC0-1.0
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000469/versions/draft/assets/
