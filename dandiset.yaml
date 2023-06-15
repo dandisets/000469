@@ -30,8 +30,9 @@ assetsSummary:
   variableMeasured:
   - Units
   - ElectrodeGroup
-citation: Kyzar, Michael (2023) Test Upload (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000469/draft
+citation: 'Kyzar, Michael; Rutishauser, Ueli (2023) Test: Dataset of human-single
+  neuron activity during a Sternberg working memory task (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/000469/draft'
 contributor:
 - affiliation: []
   email: kyzarnexus@gmail.com
@@ -41,10 +42,17 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  email: Ueli.Rutishauser@cshs.org
+  identifier: 0000-0002-9207-7069
+  includeInCitation: true
+  name: Rutishauser, Ueli
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2023-03-30T17:37:36.429935+00:00'
-description: "Working Title: Dataset of human-single neuron activity during a Sternberg
-  working memory task.\nDescription: List abstract & Link to git code \n- Determine
-  which license to use. CC0-1.0 (Public Domain) or CC-BT-4.0 (Attribution)"
+description: "Description: List abstract & Link to git code \n- Determine which license
+  to use. CC0-1.0 (Public Domain) or CC-BT-4.0 (Attribution)"
 ethicsApproval: []
 id: DANDI:000469/draft
 identifier: DANDI:000469
@@ -54,7 +62,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000469/versions/draft/assets/
-name: Test Upload
+name: 'Test: Dataset of human-single neuron activity during a Sternberg working memory
+  task.'
 protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
