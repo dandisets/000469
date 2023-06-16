@@ -19,7 +19,7 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 9788561556
+  numberOfBytes: 9788560252
   numberOfFiles: 41
   numberOfSubjects: 21
   schemaKey: AssetsSummary
@@ -28,8 +28,8 @@ assetsSummary:
     name: Homo sapiens - Human
     schemaKey: SpeciesType
   variableMeasured:
-  - Units
   - ElectrodeGroup
+  - Units
 citation: 'Kyzar, Michael; Rutishauser, Ueli (2023) Test: Dataset of human-single
   neuron activity during a Sternberg working memory task (Version draft) [Data set].
   DANDI archive. https://dandiarchive.org/dandiset/000469/draft'
