@@ -7,29 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 9788560252
-  numberOfFiles: 41
-  numberOfSubjects: 21
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
-    name: Homo sapiens - Human
-    schemaKey: SpeciesType
-  variableMeasured:
-  - ElectrodeGroup
-  - Units
 citation: 'Kyzar, Michael; Rutishauser, Ueli (2023) Test: Dataset of human-single
   neuron activity during a Sternberg working memory task (Version draft) [Data set].
   DANDI archive. https://dandiarchive.org/dandiset/000469/draft'
@@ -51,7 +31,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2023-03-30T17:37:36.429935+00:00'
-description: "Description: List abstract & Link to git code \n"
+description: "Description: List abstract \nGit: https://github.com/rutishauserlab/workingmem-release-NWB\n"
 ethicsApproval: []
 id: DANDI:000469/draft
 identifier: DANDI:000469
