@@ -3,7 +3,10 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
 about:
-- {}
+- name: Medial Temporal Lobe
+  schemaKey: GenericType
+- name: Medial Frontal Lobe
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -31,12 +34,14 @@ assetsSummary:
   variableMeasured:
   - Units
   - ElectrodeGroup
-citation: 'Kyzar, Michael; Rutishauser, Ueli (2023) Release: Dataset of human-single
-  neuron activity during a Sternberg working memory task (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000469/draft'
+citation: 'Kyzar, Michael; Kaminski, Jan; Chung, Jeffrey M. ; Mamelak, Adam M.; Reed,
+  Chrystal M.; Rutishauser, Ueli (2023) Release: Dataset of human-single neuron activity
+  during a Sternberg working memory task (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000469/draft'
 contributor:
 - affiliation:
-  - name: Department of Neurosurgery, Cedars-Sinai Medical Center
+  - name: Department of Neurosurgery, Cedars-Sinai Medical Center, Los Angeles, CA,
+      USA
     schemaKey: Affiliation
   email: kyzarnexus@gmail.com
   identifier: 0009-0004-4392-9933
@@ -44,14 +49,84 @@ contributor:
   name: Kyzar, Michael
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Maintainer
+  - dcite:Methodology
+  - dcite:ProjectLeader
+  - dcite:ProjectManager
+  - dcite:ProjectMember
+  - dcite:Researcher
+  - dcite:Software
+  - dcite:Validation
+  - dcite:Visualization
   schemaKey: Person
 - affiliation: []
+  includeInCitation: true
+  name: Kaminski, Jan
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: 'Chung, Jeffrey M. '
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mamelak, Adam M.
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Reed, Chrystal M.
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - name: Department of Neurosurgery, Cedars-Sinai Medical Center, Los Angeles, CA,
+      USA
+    schemaKey: Affiliation
+  - name: Department of Neurology, Cedars-Sinai Medical Center, Los Angeles, CA, USA
+    schemaKey: Affiliation
+  - name: Division of Biology and Biological Engineering, California Institute of
+      Technology, Pasadena, CA, USA
+    schemaKey: Affiliation
+  - name: Computational and Neural Systems Program, California Institute of Technology,
+      Pasadena, CA, USA
+    schemaKey: Affiliation
+  - name: Center for Neural Science and Medicine, Department of Biomedical Science,
+      Cedars-Sinai Medical Center, Los Angeles, CA, USA
+    schemaKey: Affiliation
+  awardNumber: ''
   email: Ueli.Rutishauser@cshs.org
   identifier: 0000-0002-9207-7069
   includeInCitation: true
   name: Rutishauser, Ueli
   roleName:
   - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ProjectMember
+  - dcite:FundingAcquisition
+  - dcite:Resources
+  - dcite:Software
+  - dcite:Supervision
+  - dcite:Validation
+  schemaKey: Person
+- awardNumber: U01NS117839, U01NS098961, R01MH110831
+  contactPoint: []
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Sponsor
+  schemaKey: Organization
+- affiliation: []
+  includeInCitation: false
+  name: Sullivan, Shannon
+  roleName:
+  - dcite:DataCollector
+  - dcite:Validation
   schemaKey: Person
 dateCreated: '2023-03-30T17:37:36.429935+00:00'
 description: "We present a dataset of 1809 single neurons  recorded from the human
@@ -74,7 +149,15 @@ description: "We present a dataset of 1809 single neurons  recorded from the hum
 ethicsApproval: []
 id: DANDI:000469/draft
 identifier: DANDI:000469
-keywords: []
+keywords:
+- cognitive neuroscience
+- data standardization
+- working memory
+- neurophysiology
+- neurosurgery
+- NWB
+- open source
+- single-neurons
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
