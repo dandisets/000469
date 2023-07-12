@@ -34,10 +34,10 @@ assetsSummary:
   variableMeasured:
   - Units
   - ElectrodeGroup
-citation: 'Kyzar, Michael; Kaminski, Jan; Chung, Jeffrey M. ; Mamelak, Adam M.; Reed,
-  Chrystal M.; Rutishauser, Ueli (2023) Release: Dataset of human-single neuron activity
-  during a Sternberg working memory task (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000469/draft'
+citation: 'Kyzar, Michael; Kaminski, Jan; Brzezicka, Aneta; Mamelak, Adam M.; Reed,
+  Chrystal M.; Chung, Jeffrey M. ; Rutishauser, Ueli (2023) Release: Dataset of human-single
+  neuron activity during a Sternberg working memory task (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/000469/draft'
 contributor:
 - affiliation:
   - name: Department of Neurosurgery, Cedars-Sinai Medical Center, Los Angeles, CA,
@@ -65,23 +65,34 @@ contributor:
   - dcite:Visualization
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0002-8663-7314
   includeInCitation: true
   name: Kaminski, Jan
   roleName: []
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0003-1950-4180
   includeInCitation: true
-  name: 'Chung, Jeffrey M. '
-  roleName: []
+  name: Brzezicka, Aneta
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0002-4245-6431
   includeInCitation: true
   name: Mamelak, Adam M.
   roleName: []
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0002-7157-3645
   includeInCitation: true
   name: Reed, Chrystal M.
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: 'Chung, Jeffrey M. '
   roleName: []
   schemaKey: Person
 - affiliation:
@@ -113,6 +124,7 @@ contributor:
   - dcite:Software
   - dcite:Supervision
   - dcite:Validation
+  - dcite:ContactPerson
   schemaKey: Person
 - awardNumber: U01NS117839, U01NS098961, R01MH110831
   contactPoint: []
@@ -122,6 +134,7 @@ contributor:
   - dcite:Sponsor
   schemaKey: Organization
 - affiliation: []
+  identifier: 0000-0002-1137-8987
   includeInCitation: false
   name: Sullivan, Shannon
   roleName:
