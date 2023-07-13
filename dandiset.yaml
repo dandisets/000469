@@ -5,7 +5,7 @@
 about:
 - name: Medial Temporal Lobe
   schemaKey: GenericType
-- name: Medial Frontal Lobe
+- name: Medial Frontal Cortex
   schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
