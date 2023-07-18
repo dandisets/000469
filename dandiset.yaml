@@ -11,13 +11,33 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 9788560252
+  numberOfFiles: 41
+  numberOfSubjects: 21
   schemaKey: AssetsSummary
-citation: Kyzar, Michael; Kaminski, Jan; Brzezicka, Aneta; Mamelak, Adam M.; Reed,
-  Chrystal M.; Chung, Jeffrey M. ; Rutishauser, Ueli (2023) Dataset of human-single
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectrodeGroup
+citation: Kyzar, Michael; Kaminski, Jan; Brzezicka, Aneta; Reed, Chrystal M.; Chung,
+  Jeffrey M. ; Mamelak, Adam M.; Rutishauser, Ueli (2023) Dataset of human-single
   neuron activity during a Sternberg working memory task (Version draft) [Data set].
-  DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  DANDI archive. https://dandiarchive.org/dandiset/000469/draft
 contributor:
 - affiliation:
   - name: Department of Neurosurgery, Cedars-Sinai Medical Center, Los Angeles, CA,
@@ -59,12 +79,6 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 - affiliation: []
-  identifier: 0000-0002-4245-6431
-  includeInCitation: true
-  name: Mamelak, Adam M.
-  roleName: []
-  schemaKey: Person
-- affiliation: []
   identifier: 0000-0002-7157-3645
   includeInCitation: true
   name: Reed, Chrystal M.
@@ -73,6 +87,12 @@ contributor:
 - affiliation: []
   includeInCitation: true
   name: 'Chung, Jeffrey M. '
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-4245-6431
+  includeInCitation: true
+  name: Mamelak, Adam M.
   roleName: []
   schemaKey: Person
 - affiliation:
@@ -106,7 +126,7 @@ contributor:
   - dcite:Validation
   - dcite:ContactPerson
   schemaKey: Person
-- awardNumber: U01NS117839, U01NS098961, R01MH110831
+- awardNumber: R01MH110831
   contactPoint: []
   includeInCitation: false
   name: National Institute of Mental Health
@@ -121,8 +141,14 @@ contributor:
   - dcite:DataCollector
   - dcite:Validation
   schemaKey: Person
+- awardNumber: U01NS117839, U01NS098961
+  contactPoint: []
+  includeInCitation: false
+  name: National Insitute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Sponsor
+  schemaKey: Organization
 dateCreated: '2023-03-30T17:37:36.429935+00:00'
-datePublished: '2023-07-17T23:49:38.945719+00:00'
 description: "We present a dataset of 1809 single neurons  recorded from the human
   medial temporal lobe (amygdala and hippocampus) and medial frontal lobe (anterior
   cingulate cortex, pre-supplementary motor area, ventral medial prefrontal cortex)
@@ -140,7 +166,6 @@ description: "We present a dataset of 1809 single neurons  recorded from the hum
   thereby enabling investigation of the neural mechanisms of working memory at the
   single-neuron level.\n\nSample code to access and analyze this dataset has been
   provided: \nhttps://github.com/rutishauserlab/workingmem-release-NWB\n"
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000469/draft
 identifier: DANDI:000469
@@ -159,23 +184,33 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000469/versions/draft/assets/
 name: Dataset of human-single neuron activity during a Sternberg working memory task.
 protocol: []
-publishedBy:
-  endDate: '2023-07-17T23:49:38.945719+00:00'
-  id: urn:uuid:37920f5c-6cab-4b8f-83b5-d22cbd8109bc
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-07-17T23:49:38.945719+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:23cfc339-4a30-40a4-98fe-ea779ca4d7c6
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
-relatedResource: []
+relatedResource:
+- identifier: Pending
+  name: Dataset of human-single neuron activity during a Sternberg working memory
+    task.
+  relation: dcite:IsDescribedBy
+  repository: Pending
+  schemaKey: Resource
+  url: Pending
+- identifier: 10.1016/j.neuron.2020.01.032
+  name: Combined Phase-Rate Coding by Persistently Active Neurons as a Mechanism for
+    Maintaining Multiple Items in Working Memory in Humans
+  relation: dcite:IsDerivedFrom
+  repository: Neuron
+  schemaKey: Resource
+  url: https://www.sciencedirect.com/science/article/pii/S0896627320300581?via%3Dihub
+- identifier: 10.1038/nn.4509
+  name: Persistently active neurons in human medial frontal and medial temporal lobe
+    support working memory
+  relation: dcite:IsDerivedFrom
+  repository: Nature Neuroscience
+  schemaKey: Resource
+  url: https://www.nature.com/articles/nn.4509
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
 url: https://dandiarchive.org/dandiset/000469/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- {}
