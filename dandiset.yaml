@@ -188,17 +188,17 @@ relatedResource:
 - identifier: Pending
   name: Dataset of human-single neuron activity during a Sternberg working memory
     task.
-  relation: dcite:IsDescribedBy
+  relation: dcite:Describes
   repository: Pending
   schemaKey: Resource
   url: Pending
-- identifier: 10.1016/j.neuron.2020.01.032
-  name: Combined Phase-Rate Coding by Persistently Active Neurons as a Mechanism for
-    Maintaining Multiple Items in Working Memory in Humans
-  relation: dcite:IsDerivedFrom
-  repository: Neuron
+- identifier: https://doi.org/10.5281/zenodo.8161627
+  name: 'Source code for: Dataset of human-single neuron activity during a Sternberg
+    working memory task'
+  relation: dcite:IsSupplementTo
+  repository: workingmem-release-NWB
   schemaKey: Resource
-  url: https://www.sciencedirect.com/science/article/pii/S0896627320300581?via%3Dihub
+  url: https://github.com/rutishauserlab/workingmem-release-NWB
 - identifier: 10.1038/nn.4509
   name: Persistently active neurons in human medial frontal and medial temporal lobe
     support working memory
@@ -206,6 +206,13 @@ relatedResource:
   repository: Nature Neuroscience
   schemaKey: Resource
   url: https://www.nature.com/articles/nn.4509
+- identifier: 10.1016/j.neuron.2020.01.032
+  name: Combined Phase-Rate Coding by Persistently Active Neurons as a Mechanism for
+    Maintaining Multiple Items in Working Memory in Humans
+  relation: dcite:IsDerivedFrom
+  repository: Neuron
+  schemaKey: Resource
+  url: https://www.sciencedirect.com/science/article/pii/S0896627320300581?via%3Dihub
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
