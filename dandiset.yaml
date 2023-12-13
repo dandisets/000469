@@ -149,6 +149,7 @@ contributor:
   - dcite:Sponsor
   schemaKey: Organization
 dateCreated: '2023-03-30T17:37:36.429935+00:00'
+datePublished: '2023-12-13T20:47:02.458075+00:00'
 description: "We present a dataset of 1809 single neurons  recorded from the human
   medial temporal lobe (amygdala and hippocampus) and medial frontal lobe (anterior
   cingulate cortex, pre-supplementary motor area, ventral medial prefrontal cortex)
@@ -184,18 +185,23 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000469/versions/draft/assets/
 name: Dataset of human-single neuron activity during a Sternberg working memory task.
 protocol: []
+publishedBy:
+  endDate: '2023-12-13T20:47:02.458075+00:00'
+  id: urn:uuid:46a1520a-307e-4989-bd9d-c9ae48e69700
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-12-13T20:47:02.458075+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:2242c4f0-1f83-45d3-8fc2-82561d9464c6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
-- identifier: Pending
-  name: Dataset of human-single neuron activity during a Sternberg working memory
-    task.
-  relation: dcite:Describes
-  repository: Pending
-  schemaKey: Resource
-  url: Pending
 - identifier: https://doi.org/10.5281/zenodo.8161627
   name: 'Source code for: Dataset of human-single neuron activity during a Sternberg
     working memory task'
-  relation: dcite:IsSupplementTo
+  relation: dcite:IsSupplementedBy
   repository: workingmem-release-NWB
   schemaKey: Resource
   url: https://github.com/rutishauserlab/workingmem-release-NWB
