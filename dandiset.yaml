@@ -36,8 +36,8 @@ assetsSummary:
   - ElectrodeGroup
 citation: Kyzar, Michael; Kaminski, Jan; Brzezicka, Aneta; Reed, Chrystal M.; Chung,
   Jeffrey M. ; Mamelak, Adam M.; Rutishauser, Ueli (2023) Dataset of human-single
-  neuron activity during a Sternberg working memory task (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000469/draft
+  neuron activity during a Sternberg working memory task (Version 0.231213.2047) [Data
+  set]. DANDI archive. https://doi.org/10.48324/dandi.000469/0.231213.2047
 contributor:
 - affiliation:
   - name: Department of Neurosurgery, Cedars-Sinai Medical Center, Los Angeles, CA,
@@ -167,8 +167,9 @@ description: "We present a dataset of 1809 single neurons  recorded from the hum
   thereby enabling investigation of the neural mechanisms of working memory at the
   single-neuron level.\n\nSample code to access and analyze this dataset has been
   provided: \nhttps://github.com/rutishauserlab/workingmem-release-NWB\n"
+doi: 10.48324/dandi.000469/0.231213.2047
 ethicsApproval: []
-id: DANDI:000469/draft
+id: DANDI:000469/0.231213.2047
 identifier: DANDI:000469
 keywords:
 - cognitive neuroscience
@@ -182,7 +183,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000469/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000469/0.231213.2047/assets.yaml
 name: Dataset of human-single neuron activity during a Sternberg working memory task.
 protocol: []
 publishedBy:
@@ -223,6 +224,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000469/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000469/0.231213.2047
+version: 0.231213.2047
 wasGeneratedBy: []
