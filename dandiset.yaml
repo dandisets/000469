@@ -36,8 +36,8 @@ assetsSummary:
   - ElectrodeGroup
 citation: Kyzar, Michael; Kaminski, Jan; Brzezicka, Aneta; Reed, Chrystal M.; Chung,
   Jeffrey M. ; Mamelak, Adam M.; Rutishauser, Ueli (2024) Dataset of human-single
-  neuron activity during a Sternberg working memory task (Version 0.240122.1800) [Data
-  set]. DANDI archive. https://doi.org/10.48324/dandi.000469/0.240122.1800
+  neuron activity during a Sternberg working memory task (Version 0.240122.1812) [Data
+  set]. DANDI archive. https://doi.org/10.48324/dandi.000469/0.240122.1812
 contributor:
 - affiliation:
   - name: Department of Neurosurgery, Cedars-Sinai Medical Center, Los Angeles, CA,
@@ -149,7 +149,7 @@ contributor:
   - dcite:Sponsor
   schemaKey: Organization
 dateCreated: '2023-03-30T17:37:36.429935+00:00'
-datePublished: '2024-01-22T18:00:04.133144+00:00'
+datePublished: '2024-01-22T18:12:47.193616+00:00'
 description: "We present a dataset of 1809 single neurons recorded from the human
   medial temporal lobe (amygdala and hippocampus) and medial frontal lobe (anterior
   cingulate cortex, pre-supplementary motor area, ventral medial prefrontal cortex)
@@ -171,9 +171,9 @@ description: "We present a dataset of 1809 single neurons recorded from the huma
   Sci Data. 2024 Jan 18;11(1):89. doi: 10.1038/s41597-024-02943-8. PMID: 38238342;
   PMCID: PMC10796636.\n  [Link to Paper](https://pubmed.ncbi.nlm.nih.gov/38238342/)\n*
   Sample code to access and analyze this dataset has been provided: https://github.com/rutishauserlab/workingmem-release-NWB\n"
-doi: 10.48324/dandi.000469/0.240122.1800
+doi: 10.48324/dandi.000469/0.240122.1812
 ethicsApproval: []
-id: DANDI:000469/0.240122.1800
+id: DANDI:000469/0.240122.1812
 identifier: DANDI:000469
 keywords:
 - cognitive neuroscience
@@ -187,22 +187,29 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/000469/0.240122.1800/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/000469/0.240122.1812/assets.yaml
 name: Dataset of human-single neuron activity during a Sternberg working memory task.
 protocol: []
 publishedBy:
-  endDate: '2024-01-22T18:00:04.133144+00:00'
-  id: urn:uuid:9a70e796-f26c-4670-af72-b632332db47d
+  endDate: '2024-01-22T18:12:47.193616+00:00'
+  id: urn:uuid:133a8321-44d0-434d-bb9e-73e504717b17
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-22T18:00:04.133144+00:00'
+  startDate: '2024-01-22T18:12:47.193616+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:72664d0d-502e-4ef0-8722-bc7d835e2084
+  - id: urn:uuid:4457c644-fcaf-4175-bbe0-d1c36c977f9f
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
 relatedResource:
+- identifier: doi.org/10.1038/s41597-024-02943-8
+  name: Dataset of human-single neuron activity during a Sternberg working memory
+    task
+  relation: dcite:IsSupplementTo
+  repository: Scientific Data
+  schemaKey: Resource
+  url: https://www.nature.com/articles/s41597-024-02943-8
 - identifier: https://doi.org/10.5281/zenodo.8161627
   name: 'Source code for: Dataset of human-single neuron activity during a Sternberg
     working memory task'
@@ -228,6 +235,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000469/0.240122.1800
-version: 0.240122.1800
+url: https://dandiarchive.org/dandiset/000469/0.240122.1812
+version: 0.240122.1812
 wasGeneratedBy: []
