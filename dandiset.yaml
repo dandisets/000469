@@ -150,7 +150,7 @@ contributor:
   - dcite:Sponsor
   schemaKey: Organization
 dateCreated: '2023-03-30T17:37:36.429935+00:00'
-datePublished: '2024-01-23T18:06:57.538865+00:00'
+datePublished: '2024-01-30T21:00:18.804347+00:00'
 description: "We present a dataset of 1809 single neurons recorded from the human
   medial temporal lobe (amygdala and hippocampus) and medial frontal lobe (anterior
   cingulate cortex, pre-supplementary motor area, ventral medial prefrontal cortex)
@@ -166,7 +166,7 @@ description: "We present a dataset of 1809 single neurons recorded from the huma
   and their persistent activity during working memory maintenance. This dataset provides
   a substantial amount of rare human single neuron recordings together with behavior,
   thereby enabling investigation of the neural mechanisms of working memory at the
-  single-neuron level.\n\nThis code accompanies the following data descriptor: \n*
+  single-neuron level.\n\nThis code accompanies the following data descriptor:\n*
   Kyzar M, Kamiński J, Brzezicka A, Reed CM, Chung JM, Mamelak AN, Rutishauser U.
   Dataset of human-single neuron activity during a Sternberg working memory task.
   Sci Data. 2024 Jan 18;11(1):89. doi: 10.1038/s41597-024-02943-8. PMID: 38238342;
@@ -192,13 +192,13 @@ manifestLocation:
 name: Dataset of human-single neuron activity during a Sternberg working memory task.
 protocol: []
 publishedBy:
-  endDate: '2024-01-23T18:06:57.538865+00:00'
-  id: urn:uuid:ac18f1d8-c685-420d-9081-878ad9d62c9a
+  endDate: '2024-01-30T21:00:18.804347+00:00'
+  id: urn:uuid:e396a1dd-ae2d-4f8e-a945-8c5a0cd008ae
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-23T18:06:57.538865+00:00'
+  startDate: '2024-01-30T21:00:18.804347+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:fc7b6822-5657-4dc7-8c8b-48805f24e7b9
+  - id: urn:uuid:d80a7229-5933-4fe1-a842-adc5ee749df5
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
